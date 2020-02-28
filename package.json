@@ -1,11 +1,18 @@
 {
   "name": "acidic",
   "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /dist/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
   "main": "index.js",
   "repository": "git@github.com:bluefantail/acidic.git",
   "author": "Matt Fannin <mattfannin@acidic.co.nz>",
   "license": "MIT",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.26.1"
   },
   "dependencies": {
