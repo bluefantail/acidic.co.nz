@@ -1,0 +1,15 @@
+{
+  "name": "acidic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bluefantail/acidic.git",
+  "author": "Matt Fannin <mattfannin@acidic.co.nz>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.26.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-modules": "^1.5.0"
+  }
+}
